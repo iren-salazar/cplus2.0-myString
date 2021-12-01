@@ -11,3 +11,14 @@ int main()
     return 0;
 }
   output: e
+=======================
+    
+#include <iostream>
+using namespace std;
+int main()
+{
+    string myString="Hello?";// h=0, e=1,l=2, l=3, o=4.
+    myString[0]='j';
+    cout<<myString;
+}
+  output: jello?
